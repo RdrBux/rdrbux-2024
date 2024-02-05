@@ -14,10 +14,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${GeistSans.className} bg-zinc-950 text-white`}>
+    <html className="2xl:text-xl" lang="en">
+      <body className={`${GeistSans.className} bg-zinc-900 text-white`}>
         <Sidebar />
-        <div className="ml-[18vw]">{children}</div>
+        <div className="ml-80">{children}</div>
       </body>
     </html>
   );
