@@ -5,6 +5,8 @@ import LangSelector from "./lang-selector";
 export default function Sidebar() {
 	return (
 		<div className="fixed top-0 left-0 h-screen bg-white/5 border-r border-white/10 overflow-hidden">
+			<div className="h-64 w-[1px] blur absolute bg-gradient-to-b from-transparent via-white/50 to-transparent right-0 -top-10 animate-move-vertical"></div>
+			<div className="h-64 w-[1px] absolute bg-gradient-to-b from-transparent via-white/60 to-transparent right-0 -top-10 animate-move-vertical"></div>
 			<aside className="flex flex-col gap-12 px-4 py-6 h-full">
 				<Link href="/" className="grid grid-cols-[auto_1fr] items-center gap-2">
 					<div className="h-10 aspect-square bg-teal-500 rounded-full"></div>
