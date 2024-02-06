@@ -57,10 +57,16 @@ export const ExternalLink = (
 export const ReactLogo = (
 	<svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="-11.5 -10.23174 23 20.46348">
 		<circle cx="0" cy="0" r="2.05" fill="currentColor" />
-		<g stroke="currentColor" stroke-width="1" fill="none">
+		<g stroke="currentColor" strokeWidth="1" fill="none">
 			<ellipse rx="11" ry="4.2" />
 			<ellipse rx="11" ry="4.2" transform="rotate(60)" />
 			<ellipse rx="11" ry="4.2" transform="rotate(120)" />
 		</g>
+	</svg>
+)
+
+export const Hamburger = (
+	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+		<path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
 	</svg>
 )

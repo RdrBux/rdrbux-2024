@@ -3,7 +3,7 @@ import Hero from "./ui/home/hero";
 
 export default function Home() {
   return (
-    <div className="px-4 lg:px-8">
+    <div className="py-36 lg:py-24">
       <Hero />
       <FeaturedProjects />
     </div>

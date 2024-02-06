@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { GeistSans } from "geist/font/sans";
 import Sidebar from "./ui/sidebar";
+import Navbar from "./ui/navbar";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,9 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html className="2xl:text-xl" lang="en">
-      <body className={`${GeistSans.className} antialiased bg-slate-950 text-white`}>
+      <body className={`${GeistSans.className} antialiased bg-gray-950 text-white`}>
+        <Navbar />
         <Sidebar />
-        <div className="lg:ml-64"><div className="max-w-[1440px] mx-auto">{children}</div></div>
+        <div className="lg:ml-64"><div className="max-w-[1440px] mx-auto px-8">{children}</div></div>
       </body>
     </html>
   );
