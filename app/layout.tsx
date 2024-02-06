@@ -15,9 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html className="2xl:text-xl" lang="en">
-      <body className={`${GeistSans.className} bg-slate-950 text-white`}>
+      <body className={`${GeistSans.className} antialiased bg-slate-950 text-white`}>
         <Sidebar />
-        <div className="ml-64"><div className="max-w-[1440px] mx-auto">{children}</div></div>
+        <div className="lg:ml-64"><div className="max-w-[1440px] mx-auto">{children}</div></div>
       </body>
     </html>
   );

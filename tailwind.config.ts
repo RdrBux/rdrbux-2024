@@ -9,7 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       animation: {
-        "move-vertical": "move-vertical 10s linear infinite",
+        "move-vertical": "move-vertical 15s linear infinite",
+        "slow-spin": "slow-spin 10s linear infinite",
       },
       keyframes: {
         "move-vertical": {
@@ -17,9 +18,17 @@ const config: Config = {
             transform: "translateY(0)",
           },
           "50%": {
-            transform: "translateY(70vh)",
+            transform: "translateY(90vh)",
           },
         },
+        "slow-spin" : {
+          "0%": {
+            transform: "rotate(0deg)",
+          },
+          "100%": {
+            transform: "rotate(-360deg)",
+          },
+        }
       }
     },
   },

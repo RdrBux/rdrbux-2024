@@ -1,10 +1,10 @@
 import Link from "next/link";
-import { Briefcase, Chat, GitHub, Home, LinkedIn, User } from "./icons";
+import { Briefcase, Chat, ExternalLink, GitHub, Home, LinkedIn, User } from "./icons";
 import LangSelector from "./lang-selector";
 
 export default function Sidebar() {
 	return (
-		<div className="fixed top-0 left-0 h-screen bg-white/5 border-r border-white/10 overflow-hidden">
+		<div className="hidden lg:block fixed top-0 left-0 h-screen bg-white/5 border-r border-white/10 overflow-hidden">
 			<div className="h-64 w-[1px] blur absolute bg-gradient-to-b from-transparent via-white/50 to-transparent right-0 -top-10 animate-move-vertical"></div>
 			<div className="h-64 w-[1px] absolute bg-gradient-to-b from-transparent via-white/60 to-transparent right-0 -top-10 animate-move-vertical"></div>
 			<aside className="flex flex-col gap-12 px-4 py-6 h-full">
@@ -42,7 +42,9 @@ export default function Sidebar() {
 						<a href="https://www.linkedin.com/in/rdrbux/" target="_blank" rel="noopener noreferrer" className="text-white/60 flex items-center gap-3 w-full px-4 py-2 rounded-lg hover:text-white duration-200">{LinkedIn}LinkedIn</a>
 					</li>
 					<li>
-						<a href="https://github.com/RdrBux" target="_blank" rel="noopener noreferrer" className="text-white/60 flex items-center gap-3 w-full px-4 py-2 rounded-lg hover:text-white duration-200">{GitHub}GitHub</a>
+						<a href="https://github.com/RdrBux" target="_blank" rel="noopener noreferrer" className="text-white/60 flex items-center gap-3 w-full px-4 py-2 rounded-lg hover:text-white duration-200">
+							{GitHub}GitHub
+						</a>
 					</li>
 				</ul>
 
