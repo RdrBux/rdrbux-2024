@@ -12,17 +12,17 @@ export default function HeroCards() {
 				<div className="text-sm lg:text-base text-center text-white/80">Trabajo principalmente <br /> con React y Next.js</div>
 			</div>
 
-			<div className="absolute [transform:rotateY(-2deg)] [transform-style:preserve-3d] w-36 lg:w-48 right-[80%] top-8 bottom-8 p-4 pl-8 lg:pl-12 bg-white/5 border border-white/10 flex flex-col justify-center items-start rounded-2xl shadow-[inset_0_1px_1px_0_rgba(255,255,255,0.2),inset_0_12px_24px_0_rgba(255,255,255,0.05)]">
-				<div className="text-white/80">
-					<p className="text-4xl font-semibold leading-none bg-gradient-to-b from-white/70 to-white bg-clip-text text-transparent tracking-tight">40+</p>
-					<p className="text-sm">Proyectos <br /> en Github</p>
+			<div className="absolute [transform:rotateY(-2deg)] [transform-style:preserve-3d] w-36 lg:w-48 right-[80%] top-8 bottom-8 bg-white/5 border border-white/10 rounded-2xl shadow-[inset_0_1px_1px_0_rgba(255,255,255,0.2),inset_0_12px_24px_0_rgba(255,255,255,0.05)]">
+				<div className="text-white/80 grid place-content-center gap-2 h-full mr-4">
+					<div className="text-4xl font-semibold p-2 lg:px-4 rounded-full bg-white/5 border border-white/10">40+</div>
+					<p className="text-sm text-center">Proyectos <br /> en Github</p>
 				</div>
 			</div>
 
 			<div className="absolute [transform:rotateY(3deg)] [transform-style:preserve-3d] w-36 lg:w-48 left-[80%] top-8 bottom-8 p-4 lg:pr-8 bg-white/5 border border-white/10 flex flex-col justify-center items-end rounded-2xl shadow-[inset_0_1px_1px_0_rgba(255,255,255,0.2),inset_0_12px_24px_0_rgba(255,255,255,0.05)]">
-				<div className="text-white/80 text-center">
-					<p className="text-4xl font-semibold leading-none bg-gradient-to-b from-white/70 to-white bg-clip-text text-transparent tracking-tight flex items-center gap-1">2 <span className="text-sm">años</span></p>
-					<p className="text-sm">Programando</p>
+				<div className="text-white/80 grid place-content-center gap-2 h-full ml-4">
+					<div className="text-4xl font-semibold p-2 lg:px-4 rounded-full bg-white/5 border border-white/10 flex items-center gap-1">2 <span className="text-lg">años</span></div>
+					<p className="text-sm text-center">Experiencia <br /> programando</p>
 				</div>
 			</div>
 		</div>
