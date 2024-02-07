@@ -1,6 +1,7 @@
 import Link from "next/link";
-import { Briefcase, Chat, ExternalLink, GitHub, Home, LinkedIn, User } from "./icons";
+import { GitHub, LinkedIn } from "./icons";
 import LangSelector from "./lang-selector";
+import NavLinks from "./nav-links";
 
 export default function Sidebar() {
 	return (
@@ -16,25 +17,7 @@ export default function Sidebar() {
 					</div>
 				</Link>
 
-				<nav>
-					<ul className="flex flex-col gap-1 text-sm">
-						<li>
-							<Link href="/" className="text-white flex items-center gap-3 w-full px-4 py-2 rounded-lg bg-white/10 hover:text-white duration-200">
-								{Home}
-								Inicio
-							</Link>
-						</li>
-						<li>
-							<Link href="/" className="text-white/60 flex items-center gap-3 w-full px-4 py-2 rounded-lg hover:text-white duration-200">{Briefcase}Proyectos</Link>
-						</li>
-						<li>
-							<Link href="/" className="text-white/60 flex items-center gap-3 w-full px-4 py-2 rounded-lg hover:text-white duration-200">{User}Sobre mí</Link>
-						</li>
-						<li>
-							<Link href="/" className="text-white/60 flex items-center gap-3 w-full px-4 py-2 rounded-lg hover:text-white duration-200">{Chat}Contacto</Link>
-						</li>
-					</ul>
-				</nav>
+				<NavLinks />
 
 				<ul className="flex flex-col gap-1 text-sm">
 					<h5 className="text-white/60 font-medium text-xs mx-3 my-1 uppercase tracking-wider">Redes</h5>
