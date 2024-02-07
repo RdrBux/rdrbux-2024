@@ -19,7 +19,7 @@ export default function RootLayout({
       <body className={`${GeistSans.className} antialiased bg-gray-950 text-white`}>
         <Navbar />
         <Sidebar />
-        <div className="lg:ml-64"><div className="max-w-[1440px] mx-auto px-8">{children}</div></div>
+        <div className="lg:ml-64"><div className="max-w-[1440px] mx-auto px-8 py-36 lg:py-24">{children}</div></div>
       </body>
     </html>
   );
