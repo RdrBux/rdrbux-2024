@@ -9,7 +9,7 @@ export default function NavLinks() {
 
 	return (
 		<nav>
-			<ul className="flex flex-col gap-1 text-sm text-white/60">
+			<ul className="text-sm flex flex-col gap-1 text-white/60">
 				<li>
 					<Link href="/" className={`${pathname === '/' ? 'text-white bg-white/10' : ''} flex items-center gap-3 w-full px-4 py-2 rounded-lg hover:text-white duration-200`}>
 						{Home}

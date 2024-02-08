@@ -31,7 +31,7 @@ export default function LangSelector() {
 
 			{
 				showMenu && (
-					<div className="rounded-lg p-1 bg-gray-950 absolute left-0 right-0 -top-[5.2rem] shadow">
+					<div className="rounded-lg p-1 bg-gray-950 border border-white/10 absolute left-0 right-0 -top-[5.2rem] shadow">
 						<ul className="flex flex-col gap-1">
 							<li>
 								<button className="text-sm rounded-lg w-full hover:bg-white/10 duration-100 px-4 py-2 flex items-center gap-3">

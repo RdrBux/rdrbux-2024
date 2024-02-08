@@ -10,7 +10,7 @@ export default function Home() {
 					<div className="overflow-hidden rounded-t-lg"><div className="w-full h-96 rounded-t-lg bg-gradient-to-br from-teal-400 to-indigo-400 group-hover:scale-110 duration-300"></div></div>
 					<div className="p-4">
 						<h3 className="text-xl font-semibold group-hover:underline">Utopía</h3>
-						<p className="text-white/60">La red social que potencia tu bienestar y calidad de vida</p>
+						<p className="text-white/60 text-sm">La red social que potencia tu bienestar y calidad de vida</p>
 					</div>
 				</Link>
 
@@ -18,7 +18,7 @@ export default function Home() {
 					<div className="overflow-hidden rounded-t-lg"><div className="w-full h-96 rounded-t-lg bg-gradient-to-br from-teal-400 to-indigo-400 group-hover:scale-110 duration-300"></div></div>
 					<div className="p-4">
 						<h3 className="text-xl font-semibold group-hover:underline">Utopía</h3>
-						<p className="text-white/60">La red social que potencia tu bienestar y calidad de vida</p>
+						<p className="text-white/60 text-sm">La red social que potencia tu bienestar y calidad de vida</p>
 					</div>
 				</Link>
 
@@ -26,7 +26,7 @@ export default function Home() {
 					<div className="overflow-hidden rounded-t-lg"><div className="w-full h-96 rounded-t-lg bg-gradient-to-br from-teal-400 to-indigo-400 group-hover:scale-110 duration-300"></div></div>
 					<div className="p-4">
 						<h3 className="text-xl font-semibold group-hover:underline">Utopía</h3>
-						<p className="text-white/60">La red social que potencia tu bienestar y calidad de vida</p>
+						<p className="text-white/60 text-sm">La red social que potencia tu bienestar y calidad de vida</p>
 					</div>
 				</Link>
 
@@ -34,7 +34,7 @@ export default function Home() {
 					<div className="overflow-hidden rounded-t-lg"><div className="w-full h-96 rounded-t-lg bg-gradient-to-br from-teal-400 to-indigo-400 group-hover:scale-110 duration-300"></div></div>
 					<div className="p-4">
 						<h3 className="text-xl font-semibold group-hover:underline">Utopía</h3>
-						<p className="text-white/60">La red social que potencia tu bienestar y calidad de vida</p>
+						<p className="text-white/60 text-sm">La red social que potencia tu bienestar y calidad de vida</p>
 					</div>
 				</Link>
 
