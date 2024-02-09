@@ -1,9 +1,9 @@
 export default function Home() {
 	return (
-		<main className="max-w-3xl mx-auto">
+		<main className="max-w-3xl mx-auto mb-24">
 
 			<div className="w-64 aspect-square bg-red-300 float-right m-4"></div>
-			<h1 className="text-5xl lg:text-5xl leading-none tracking-tighter font-semibold">Construyendo el Futuro Digital con Creatividad y Profesionalismo</h1>
+			<h1 className="text-5xl leading-none tracking-tighter font-semibold">Construyendo el Futuro Digital con Creatividad y Profesionalismo</h1>
 
 			<div className="text-gray-300 font-normal mt-8">
 

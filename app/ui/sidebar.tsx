@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { GitHub, LinkedIn } from "./icons";
+import { GitHub, Identification, LinkedIn, Mail } from "./icons";
 import LangSelector from "./lang-selector";
 import NavLinks from "./nav-links";
 
@@ -20,13 +20,23 @@ export default function Sidebar() {
 				<NavLinks />
 
 				<ul className="flex flex-col gap-1 text-sm">
-					<h5 className="text-white/60 font-medium text-xs mx-3 my-1 uppercase tracking-wider">Redes</h5>
+					<h5 className="text-white/60 font-medium text-xs mx-3 my-1 uppercase tracking-wider">Contacto</h5>
+					<li>
+						<a href="mailto:rdrbux@gmail.com" target="_blank" rel="noopener noreferrer" className="text-white/60 flex items-center gap-3 w-full px-4 py-2 rounded-lg hover:text-white duration-200">
+							{Mail}Correo
+						</a>
+					</li>
 					<li>
 						<a href="https://www.linkedin.com/in/rdrbux/" target="_blank" rel="noopener noreferrer" className="text-white/60 flex items-center gap-3 w-full px-4 py-2 rounded-lg hover:text-white duration-200">{LinkedIn}LinkedIn</a>
 					</li>
 					<li>
 						<a href="https://github.com/RdrBux" target="_blank" rel="noopener noreferrer" className="text-white/60 flex items-center gap-3 w-full px-4 py-2 rounded-lg hover:text-white duration-200">
 							{GitHub}GitHub
+						</a>
+					</li>
+					<li>
+						<a href="https://drive.google.com/file/d/11GrA9lsIslOnRc3Fw4OTEpNpcuqpsjXs/view" target="_blank" rel="noopener noreferrer" className="text-white/60 flex items-center gap-3 w-full px-4 py-2 rounded-lg hover:text-white duration-200">
+							{Identification}Curriculum Vitae
 						</a>
 					</li>
 				</ul>

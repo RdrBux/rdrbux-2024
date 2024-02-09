@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
 	return (
-		<main className="">
+		<main className="mb-24">
 			<h1 className="text-5xl lg:text-6xl tracking-tighter font-semibold lg:text-center">Proyectos realizados</h1>
 			<div className="grid lg:grid-cols-2 gap-8 w-full mt-16">
 

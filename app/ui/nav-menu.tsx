@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useRef, useState } from "react";
-import { Briefcase, Chat, GitHub, Hamburger, Home, LinkedIn, User } from "./icons";
+import { Briefcase, Chat, GitHub, Hamburger, Home, Identification, LinkedIn, Mail, User } from "./icons";
 import LangSelector from "./lang-selector";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -14,7 +14,6 @@ export default function NavMenu() {
 	useEffect(() => {
 		function handleClickOutside(e: MouseEvent) {
 			if (showMenu && menu.current && !menu.current.contains(e.target as HTMLElement)) {
-				console.log('hi')
 				setShowMenu(false);
 			}
 		}
@@ -50,20 +49,27 @@ export default function NavMenu() {
 								<li>
 									<Link onClick={() => setTimeout(() => setShowMenu(false), 100)} href="/about" className={`${pathname === '/about' ? 'text-white bg-white/10' : ''} flex items-center gap-3 w-full px-4 py-2 rounded-lg hover:text-white duration-200`}>{User}Sobre mí</Link>
 								</li>
-								<li>
-									<Link onClick={() => setTimeout(() => setShowMenu(false), 100)} href="/contact" className={`${pathname === '/contact' ? 'text-white bg-white/10' : ''} flex items-center gap-3 w-full px-4 py-2 rounded-lg hover:text-white duration-200`}>{Chat}Contacto</Link>
-								</li>
 							</ul>
 						</nav>
 
 						<ul className="flex flex-col gap-1">
-							<h5 className="text-white/60 font-medium text-sm mx-3 my-1 uppercase tracking-wider">Redes</h5>
+							<h5 className="text-white/60 font-medium text-sm mx-3 my-1 uppercase tracking-wider">Contacto</h5>
+							<li>
+								<a href="mailto:rdrbux@gmail.com" target="_blank" rel="noopener noreferrer" className="text-white/60 flex items-center gap-3 w-full px-4 py-2 rounded-lg hover:text-white duration-200">
+									{Mail}Correo
+								</a>
+							</li>
 							<li>
 								<a href="https://www.linkedin.com/in/rdrbux/" target="_blank" rel="noopener noreferrer" className="text-white/60 flex items-center gap-3 w-full px-4 py-2 rounded-lg hover:text-white duration-200">{LinkedIn}LinkedIn</a>
 							</li>
 							<li>
 								<a href="https://github.com/RdrBux" target="_blank" rel="noopener noreferrer" className="text-white/60 flex items-center gap-3 w-full px-4 py-2 rounded-lg hover:text-white duration-200">
 									{GitHub}GitHub
+								</a>
+							</li>
+							<li>
+								<a href="https://drive.google.com/file/d/11GrA9lsIslOnRc3Fw4OTEpNpcuqpsjXs/view" target="_blank" rel="noopener noreferrer" className="text-white/60 flex items-center gap-3 w-full px-4 py-2 rounded-lg hover:text-white duration-200">
+									{Identification}Curriculum Vitae
 								</a>
 							</li>
 						</ul>
