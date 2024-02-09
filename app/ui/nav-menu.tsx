@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useRef, useState } from "react";
-import { Briefcase, Chat, GitHub, Hamburger, Home, Identification, LinkedIn, Mail, User } from "./icons";
+import { Briefcase, Chat, Close, GitHub, Hamburger, Home, Identification, LinkedIn, Mail, User } from "./icons";
 import LangSelector from "./lang-selector";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -29,7 +29,7 @@ export default function NavMenu() {
 		<div className="">
 			<div className="w-12 aspect-square rounded-lg relative overflow-hidden bg-white/10">
 				<div className="absolute w-[150%] h-[150%] -left-1/4 -top-1/4 bg-[conic-gradient(rgb(203_213_225)_20deg,transparent_120deg)] animate-slow-spin"></div>
-				<button onClick={() => setShowMenu(prev => !prev)} className="absolute inset-[1px] rounded-lg bg-gray-950"><div className="w-full h-full grid place-content-center rounded-lg">{Hamburger}</div></button>
+				<button aria-label="Menú" onClick={() => setShowMenu(prev => !prev)} className="absolute inset-[1px] rounded-lg bg-gray-950"><div className="w-full h-full grid place-content-center rounded-lg">{showMenu ? Close : Hamburger}</div></button>
 			</div>
 
 			{showMenu && (

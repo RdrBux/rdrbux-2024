@@ -2,6 +2,7 @@ import Link from "next/link";
 import { GitHub, Identification, LinkedIn, Mail } from "./icons";
 import LangSelector from "./lang-selector";
 import NavLinks from "./nav-links";
+import Avatar from "./avatar";
 
 export default function Sidebar() {
 	return (
@@ -10,7 +11,7 @@ export default function Sidebar() {
 			<div className="h-64 w-[1px] absolute bg-gradient-to-b from-transparent via-white/60 to-transparent right-0 -top-10 animate-move-vertical"></div>
 			<aside className="flex flex-col gap-12 px-4 py-6 h-full">
 				<Link href="/" className="grid grid-cols-[auto_1fr] items-center gap-2">
-					<img src="avatar.jpg" alt="Rodrigo Rodríguez Buxman" className="h-10 aspect-square rounded-full" />
+					<Avatar />
 					<div className="text-sm">
 						<h4 className="font-medium tracking-tight">Rodrigo Rodríguez Buxman</h4>
 						<p className="text-white/60">Desarrollador Web</p>
