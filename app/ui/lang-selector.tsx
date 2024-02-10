@@ -24,7 +24,7 @@ export default function LangSelector() {
 	return (
 		<div ref={menu} className="relative pt-1">
 			<button onClick={() => setShowMenu(prev => !prev)} className={`${showMenu ? 'outline outline-2 outline-white/20' : ''} flex my-1 items-center gap-3 rounded-lg border text-sm border-white/10 px-4 py-2 w-full`}>
-				<img className="w-5" src="español.png" alt="Bandera de España" />
+				<img className="w-5" src="spanish.png" alt="Bandera de España" />
 				Español
 				<span className="ml-auto">{Chevron}</span>
 			</button>
@@ -35,7 +35,7 @@ export default function LangSelector() {
 						<ul className="flex flex-col gap-1">
 							<li>
 								<button className="text-sm rounded-lg w-full hover:bg-white/10 duration-100 px-4 py-2 flex items-center gap-3">
-									<img className="w-5" src="español.png" alt="Bandera de España" />
+									<img className="w-5" src="spanish.png" alt="Bandera de España" />
 									Español
 									<span className="ml-auto">{Tick}</span>
 								</button>
