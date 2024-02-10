@@ -16,8 +16,7 @@ export default function Home() {
 				<div className="text-gray-300 text-xl lg:px-4">
 					<p>Optimiza tu flujo de trabajo y nunca vuelvas a perder textos copiados. Copy Saver permite administrar el portapapeles con acciones rápidas e intuitivas.</p>
 					<p className="mt-4">Captura y guarda automáticamente el contenido de texto copiado durante la navegación web, Copy Saver es la solución ideal para una gestión eficiente de tu información.</p>
-					<a className="text-teal-300 underline block w-fit mt-4 hover:text-teal-500 duration-200" href="https://github.com/RdrBux/CopySaver" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
-					<p className="text-teal-600 block w-fit mt-4"><span className="line-through">Chrome Web Store</span> (proximamente)</p>
+					<a className="text-teal-300 underline block mt-4 hover:text-teal-500 duration-200" href="https://github.com/RdrBux/CopySaver" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
 				</div>
 
 				<div className="grid grid-cols-2 gap-4 text-sm h-fit">

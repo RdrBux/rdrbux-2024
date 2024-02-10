@@ -15,8 +15,8 @@ export default function Home() {
 				<div className="text-gray-300 text-xl lg:px-4">
 					<p>CV Design es un creador online de Curriculum Vitae diseñado para simplificar la elaboración de tu próximo currículum estético y profesional.</p>
 					<p className="mt-4">La aplicación posee una sección de vista previa que se actualiza en vivo que permite visualizar las actualizaciones en tiempo real mientras se completan los formularios con la información pertinente.</p>
-					<a className="text-teal-300 underline block w-fit mt-4 hover:text-teal-500 duration-200" href="https://rdrbux.github.io/cv-application" target="_blank" rel="noopener noreferrer">Ver demo</a>
-					<a className="text-teal-300 underline block w-fit mt-2 hover:text-teal-500 duration-200" href="https://github.com/RdrBux/cv-application" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
+					<a className="text-teal-300 underline block mt-4 hover:text-teal-500 duration-200" href="https://rdrbux.github.io/cv-application" target="_blank" rel="noopener noreferrer">Ver demo</a>
+					<a className="text-teal-300 underline block mt-2 hover:text-teal-500 duration-200" href="https://github.com/RdrBux/cv-application" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
 				</div>
 
 				<div className="grid grid-cols-2 gap-x-2 gap-y-4 text-sm h-fit">
