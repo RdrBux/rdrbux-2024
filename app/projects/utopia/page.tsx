@@ -9,7 +9,7 @@ export default function Home() {
 				<h2 className="text-[11vw] leading-none md:text-5xl tracking-tighter font-semibold">Tu nueva forma de vivir y compartir un estilo de vida saludable</h2>
 			</div>
 
-			<Image src="/projects/utopia/login.png" alt="Utopia Website" width={2640} height={1328} className="rounded-2xl border-4 border-white/20 shadow-lg" />
+			<Image src="/projects/utopia/project-utopia.jpg" alt="Utopia Website" width={3840} height={2160} className="rounded-2xl border-4 border-white/20 shadow-lg" />
 
 			<div className="grid lg:grid-cols-2 gap-10 place-items-center">
 				<div className="text-gray-300 text-xl lg:px-4">
@@ -31,11 +31,7 @@ export default function Home() {
 				</div>
 			</div>
 
-			<div className="h-[60vh] lg:h-auto py-6 flex overflow-x-auto lg:grid lg:grid-cols-3 gap-8 lg:gap-16" >
-				<Image src="/projects/utopia/phone1.png" alt="Utopia Design Website Mobile" width={828} height={1792} className="rounded-2xl border-4 border-white/20 shadow-lg" />
-				<Image src="/projects/utopia/phone2.png" alt="Utopia Design Website Mobile" width={828} height={1792} className="rounded-2xl border-4 border-white/20 shadow-lg" />
-				<Image src="/projects/utopia/phone3.png" alt="Utopia Design Website Mobile" width={828} height={1792} className="rounded-2xl border-4 border-white/20 shadow-lg" />
-			</div>
+			<Image src="/projects/utopia/login.png" alt="Utopia Website" width={2640} height={1328} className="rounded-2xl border-4 border-white/20 shadow-lg" />
 
 			<h2 className="text-3xl font-semibold tracking-tight">CARACTERÍSTICAS DESTACADAS</h2>
 			<div className="grid lg:grid-cols-2 gap-10 -mt-12">
@@ -83,7 +79,7 @@ export default function Home() {
 				<p className="mt-4 text-gray-400">Se destacó también el manejo de errores y actualizaciones visuales del estado en la interfaz de usuario, tanto en formularios en proceso como en actualizaciones optimistas.</p>
 			</div>
 
-			<Link href='/projects/copy-saver' className="grid place-content-center text-center w-full h-[70vh] rounded-2xl bg-gradient-to-br from-rose-500 to-rose-800">
+			<Link href='/projects/dulcinea' className="grid place-content-center text-center w-full h-[70vh] rounded-2xl bg-gradient-to-br from-rose-500 to-rose-800">
 				<h5 className="text-white/80 font-medium uppercase tracking-wider">Siguiente proyecto</h5>
 				<p className="text-6xl tracking-tighter font-semibold">Dulcinea</p>
 			</Link>
