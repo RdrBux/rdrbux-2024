@@ -71,7 +71,7 @@ export default function Home() {
 				</div>
 			</div>
 
-			<Image src="/projects/cv-design/download.png" alt="CV Design Website" width={999} height={628} className="rounded-2xl border-4 border-white/20 shadow-lg" />
+			<Image src="/projects/cv-design/download.png" alt="CV Design Website" width={999} height={628} className="rounded-2xl border-4 mx-auto border-white/20 shadow-lg" />
 
 
 			<div className="max-w-xl mx-auto">
