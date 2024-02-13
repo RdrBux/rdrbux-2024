@@ -4,7 +4,7 @@ import { GitHub, Identification, LinkedIn, Mail } from "../icons";
 export default function Footer() {
 	return (
 		<footer className="mt-16 flex justify-between items-center border-t border-white/10 py-1">
-			<Link href="/" className="hover:underline">
+			<Link href="/en" className="hover:underline">
 				<span className="font-semibold">RdrBux.com.ar</span> <span className="text-gray-400">2024</span>
 			</Link>
 
