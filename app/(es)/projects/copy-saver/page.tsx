@@ -1,5 +1,10 @@
+import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+	title: 'Copy Saver | Rodrigo Rodríguez Buxman'
+}
 
 export default function Home() {
 	return (
@@ -37,7 +42,7 @@ export default function Home() {
 			<div className="grid lg:grid-cols-2 gap-10 -mt-12">
 				<div>
 					<h3 className="text-lg font-semibold">Funcionamiento automático</h3>
-					<p className="mt-2 text-gray-400">Actualmente, se cuenta con dos plantillas: Swiss o American, proporcionando opciones de diseño versátiles para adaptarse a diversos estilos.</p>
+					<p className="mt-2 text-gray-400">El contenido copiado desde el navegador se agrega directamente a la base de datos para ser visualizado desde la ventana de la aplicación.</p>
 				</div>
 
 				<div>

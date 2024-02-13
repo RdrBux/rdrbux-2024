@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import "../globals.css";
 import { GeistSans } from "geist/font/sans";
-import Sidebar from "./ui/sidebar";
-import Navbar from "./ui/navbar";
-import Footer from "./ui/home/footer";
+import Sidebar from "../ui/sidebar";
+import Navbar from "../ui/navbar";
+import Footer from "../ui/home/footer";
 
 export const metadata: Metadata = {
   title: "Rodrigo Rodríguez Buxman | Desarrollador Web",
@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html className="2xl:text-xl" lang="en">
+    <html className="2xl:text-xl" lang="es">
       <body className={`${GeistSans.className} antialiased bg-gray-950 text-white`}>
         <Navbar />
         <Sidebar />
