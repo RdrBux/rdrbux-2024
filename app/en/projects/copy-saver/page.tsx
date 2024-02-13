@@ -17,7 +17,7 @@ export default function Home() {
 			<Image src="/projects/copy-saver/copy-saver-home.jpg" alt="Copy Saver Chrome Extension" width={1800} height={1172} className="rounded-2xl border-4 border-white/20 shadow-lg" />
 
 
-			<div className="grid lg:grid-cols-2 gap-10 place-items-center">
+			<div className="grid lg:grid-cols-2 gap-20 lg:gap-10 place-items-center">
 				<div className="text-gray-300 text-xl lg:px-4">
 					<p>Optimize your workflow and never lose copied texts again. Copy Saver allows you to manage the clipboard with quick and intuitive actions.</p>
 					<p className="mt-4">Automatically capture and save texts copied during web browsing, Copy Saver is the ideal solution for efficient management of your information.</p>

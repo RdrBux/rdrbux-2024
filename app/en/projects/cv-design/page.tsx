@@ -16,7 +16,7 @@ export default function Home() {
 
 			<Image src="/projects/cv-design/hero.png" alt="CV Design Website" width={1486} height={900} className="rounded-2xl border-4 border-white/20 shadow-lg" />
 
-			<div className="grid lg:grid-cols-2 gap-10 place-items-center">
+			<div className="grid lg:grid-cols-2 gap-20 lg:gap-10 place-items-center">
 				<div className="text-gray-300 text-xl lg:px-4">
 					<p>CV Design is an online Curriculum Vitae creator designed to simplify the creation of your next aesthetic and professional résumé.</p>
 					<p className="mt-4">The application has a live preview section that allows you to view updates in real time while filling out forms with the relevant information.</p>

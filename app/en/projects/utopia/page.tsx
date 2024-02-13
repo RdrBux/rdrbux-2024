@@ -16,7 +16,7 @@ export default function Home() {
 
 			<Image src="/projects/utopia/project-utopia.jpg" alt="Utopia Website" width={3840} height={2160} className="rounded-2xl border-4 border-white/20 shadow-lg" />
 
-			<div className="grid lg:grid-cols-2 gap-10 place-items-center">
+			<div className="grid lg:grid-cols-2 gap-20 lg:gap-10 place-items-center">
 				<div className="text-gray-300 text-xl lg:px-4">
 					<p>Utopia is an innovative social network designed to promote a healthier and more authentic lifestyle among users.</p>
 					<p className="mt-4">In contrast to the social pressures and standards of perfection commonly associated with conventional social networks, Utopia offers a space to share eating habits, physical activity and general reflections, encouraging collaboration and mutual inspiration for a more fulfilling life.</p>
@@ -65,7 +65,7 @@ export default function Home() {
 
 			<div className="max-w-xl mx-auto">
 				<h2 className="text-3xl font-semibold tracking-tight">DEVELOPMENT PROCESS</h2>
-				<ul className="mt-8 text-gray-400 list-disc">
+				<ul className="mt-8 text-gray-400 list-disc px-4">
 					<li>Wireframes were created in Figma to define the fundamental aspects of the application and each of its pages.</li>
 					<li className="mt-4">An SQL database was created, determining the necessary tables, columns and relationships.</li>
 					<li className="mt-4">The frontend was developed using Server Components or Client Components depending on the interactivity required.</li>

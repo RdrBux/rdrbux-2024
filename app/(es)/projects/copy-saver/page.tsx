@@ -17,7 +17,7 @@ export default function Home() {
 			<Image src="/projects/copy-saver/copy-saver-home.jpg" alt="Copy Saver Chrome Extension" width={1800} height={1172} className="rounded-2xl border-4 border-white/20 shadow-lg" />
 
 
-			<div className="grid lg:grid-cols-2 gap-10 place-items-center">
+			<div className="grid lg:grid-cols-2 gap-20 lg:gap-10 place-items-center">
 				<div className="text-gray-300 text-xl lg:px-4">
 					<p>Optimiza tu flujo de trabajo y nunca vuelvas a perder textos copiados. Copy Saver permite administrar el portapapeles con acciones rápidas e intuitivas.</p>
 					<p className="mt-4">Captura y guarda automáticamente el contenido de texto copiado durante la navegación web, Copy Saver es la solución ideal para una gestión eficiente de tu información.</p>

@@ -17,7 +17,7 @@ export default function Home() {
 			<Image src="/projects/dulcinea/hero.jpg" alt="Dulcinea Rodríguez Website" width={1494} height={900} className="rounded-2xl border-4 border-white/20 shadow-lg" />
 
 
-			<div className="grid lg:grid-cols-2 gap-10 place-items-center">
+			<div className="grid lg:grid-cols-2 gap-20 lg:gap-10 place-items-center">
 				<div className="text-gray-300 text-xl lg:px-4">
 					<p>Dulcinea Rodríguez, prominent ballet dancer, French teacher and specialist in Ayurvedic medicine and kinesiology, now has a digital presence that reflects all her skills.</p>
 					<p className="mt-4">This work consisted of creating her personal website, a stylish space that not only showcases her talents, but also features sections dedicated to the services she offers and a store with products from collaborators.</p>

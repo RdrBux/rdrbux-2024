@@ -16,7 +16,7 @@ export default function Home() {
 
 			<Image src="/projects/utopia/project-utopia.jpg" alt="Utopia Website" width={3840} height={2160} className="rounded-2xl border-4 border-white/20 shadow-lg" />
 
-			<div className="grid lg:grid-cols-2 gap-10 place-items-center">
+			<div className="grid lg:grid-cols-2 gap-20 lg:gap-10 place-items-center">
 				<div className="text-gray-300 text-xl lg:px-4">
 					<p>Utopía es una red social innovadora diseñada para promover un estilo de vida más saludable y auténtico entre los usuarios.</p>
 					<p className="mt-4">En contraposición a las presiones sociales y los estándares de perfección comúnmente asociados con las redes sociales convencionales, Utopía ofrece un espacio donde compartir hábitos alimenticios, actividad física y reflexiones generales, fomentando la colaboración y la inspiración mutua para una vida más plena.</p>
@@ -65,7 +65,7 @@ export default function Home() {
 
 			<div className="max-w-xl mx-auto">
 				<h2 className="text-3xl font-semibold tracking-tight">PROCESO DE DESARROLLO</h2>
-				<ul className="mt-8 text-gray-400 list-disc">
+				<ul className="mt-8 text-gray-400 list-disc px-4">
 					<li>Se elaboraron wireframes en Figma para definir los aspectos fundamentales de la aplicación y cada una de sus páginas.</li>
 					<li className="mt-4">Se creó una base de datos SQL, determinando las tablas, columnas y relaciones necesarias.</li>
 					<li className="mt-4">Se desarrolló el frontend utilizando Server Components o Client Components según la interactividad requerida.</li>
