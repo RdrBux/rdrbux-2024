@@ -27,7 +27,7 @@ export default function LangSelector() {
 	}, [menu, showMenu])
 
 	function handleLangChange() {
-		router.push(pathname.slice(3))
+		router.push(pathname.slice(3) ? pathname.slice(3) : '/')
 	}
 
 	return (
