@@ -4,6 +4,7 @@ import { GeistSans } from "geist/font/sans";
 import Sidebar from "../ui/sidebar";
 import Navbar from "../ui/navbar";
 import Footer from "../ui/home/footer";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
   title: "Rodrigo Rodríguez Buxman | Desarrollador Web",
@@ -26,6 +27,7 @@ export default function RootLayout({
             <Footer />
           </div>
         </div>
+        <Analytics />
       </body>
     </html>
   );
