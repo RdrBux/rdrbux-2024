@@ -68,7 +68,7 @@ export default function NavMenu() {
 								</a>
 							</li>
 							<li>
-								<a href="https://drive.google.com/file/d/1MxJ9hi1CmEITktoBYT3UsEvGZ2BmTUe5/view" target="_blank" rel="noopener noreferrer" className="text-white/60 flex items-center gap-3 w-full px-4 py-2 rounded-lg hover:text-white duration-200">
+								<a href="https://drive.google.com/file/d/1DW89y8MSUKBQj2pDs8DK8OMLW5MfUArb/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-white/60 flex items-center gap-3 w-full px-4 py-2 rounded-lg hover:text-white duration-200">
 									{Identification}Résumé
 								</a>
 							</li>

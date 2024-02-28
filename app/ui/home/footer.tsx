@@ -19,7 +19,7 @@ export default function Footer() {
 					<a target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub" href="https://github.com/RdrBux" className="text-white/60 hover:text-white duration-200 p-2.5 inline-block">{GitHub}</a>
 				</li>
 				<li>
-					<a target="_blank" rel="noopener noreferrer" title="Curriculum Vitae" aria-label="Curriculum Vitae" href="https://drive.google.com/file/d/11GrA9lsIslOnRc3Fw4OTEpNpcuqpsjXs/view" className="text-white/60 hover:text-white duration-200 p-2.5 inline-block">{Identification}</a>
+					<a target="_blank" rel="noopener noreferrer" title="Curriculum Vitae" aria-label="Curriculum Vitae" href="https://drive.google.com/file/d/1bL-fAbFEpn6OYuKJo-RoXaD0r4zZCqy3/view?usp=sharing" className="text-white/60 hover:text-white duration-200 p-2.5 inline-block">{Identification}</a>
 				</li>
 			</ul>
 
