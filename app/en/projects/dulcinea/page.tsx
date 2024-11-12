@@ -57,9 +57,9 @@ export default function Home() {
 				<p className="text-gray-400 mt-8">The results were extremely successful. The site has achieved outstanding SEO positioning and has experienced a constant flow of traffic, especially at times when Dulcinea has received media exposure for its own merits and popularity.</p>
 			</div>
 
-			<Link href='/en/projects/cv-design' className="grid place-content-center text-center w-full h-[70vh] rounded-2xl bg-gradient-to-br from-purple-500 to-indigo-800">
+			<Link href='/en/projects/utopia' className="grid place-content-center text-center w-full h-[70vh] rounded-2xl bg-gradient-to-br from-teal-500 to-teal-800">
 				<h5 className="text-white/80 font-medium uppercase tracking-wider">Next Project</h5>
-				<p className="text-6xl tracking-tighter font-semibold">CV Design</p>
+				<p className="text-6xl tracking-tighter font-semibold">Utopia</p>
 			</Link>
 
 		</main>

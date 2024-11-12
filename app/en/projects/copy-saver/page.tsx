@@ -82,9 +82,9 @@ export default function Home() {
 				<p className="text-gray-400 mt-4">This will be an optional function, it will open a new temporary tab in the background with an Iframe injected to execute the functions. Currently, it is under development.</p>
 			</div>
 
-			<Link href='/en/projects/utopia' className="grid place-content-center text-center w-full h-[70vh] rounded-2xl bg-gradient-to-br from-teal-500 to-teal-800">
+			<Link href='/en/projects/saber-supercomplejo' className="grid place-content-center text-center w-full h-[70vh] rounded-2xl bg-gradient-to-br from-teal-500 to-teal-800">
 				<h5 className="text-white/80 font-medium uppercase tracking-wider">Next Project</h5>
-				<p className="text-6xl tracking-tighter font-semibold">Utopia</p>
+				<p className="text-5xl lg:text-6xl tracking-tighter font-semibold">Saber Supercomplejo</p>
 			</Link>
 
 		</main>

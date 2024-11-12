@@ -82,9 +82,9 @@ export default function Home() {
 				<p className="text-gray-400 mt-4">Esta será una función opcional, la misma abrirá una nueva pestaña temporal en segundo plano con un Iframe inyectado para ejecutar las funciones. Actualmente, se encuentra en desarrollo.</p>
 			</div>
 
-			<Link href='/projects/utopia' className="grid place-content-center text-center w-full h-[70vh] rounded-2xl bg-gradient-to-br from-teal-500 to-teal-800">
+			<Link href='/projects/saber-supercomplejo' className="grid place-content-center text-center w-full h-[70vh] rounded-2xl bg-gradient-to-br from-emerald-500 to-emerald-800">
 				<h5 className="text-white/80 font-medium uppercase tracking-wider">Siguiente proyecto</h5>
-				<p className="text-6xl tracking-tighter font-semibold">Utopía</p>
+				<p className="text-5xl lg:text-6xl tracking-tighter font-semibold">Saber Supercomplejo</p>
 			</Link>
 
 		</main>

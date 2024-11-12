@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useRef, useState } from "react";
-import { Briefcase, Chat, Close, GitHub, Hamburger, Home, Identification, LinkedIn, Mail, User } from "./icons";
+import { Briefcase, Close, GitHub, Hamburger, Home, Identification, LinkedIn, Mail, User } from "./icons";
 import LangSelector from "./lang-selector";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -56,7 +56,7 @@ export default function NavMenu() {
 							<h5 className="text-white/60 font-medium text-sm mx-3 my-1 uppercase tracking-wider">Contacto</h5>
 							<li>
 								<a href="mailto:rdrbux@gmail.com" target="_blank" rel="noopener noreferrer" className="text-white/60 flex items-center gap-3 w-full px-4 py-2 rounded-lg hover:text-white duration-200">
-									{Mail}Correo
+									{Mail}Rdrbux@gmail.com
 								</a>
 							</li>
 							<li>

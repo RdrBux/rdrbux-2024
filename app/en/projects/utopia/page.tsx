@@ -84,9 +84,9 @@ export default function Home() {
 				<p className="mt-4 text-gray-400">Error handling and visual status updates in the user interface were also highlighted, both in pending forms and optimistic updates.</p>
 			</div>
 
-			<Link href='/en/projects/dulcinea' className="grid place-content-center text-center w-full h-[70vh] rounded-2xl bg-gradient-to-br from-rose-500 to-rose-800">
+			<Link href='/en/projects/cv-design' className="grid place-content-center text-center w-full h-[70vh] rounded-2xl bg-gradient-to-br from-purple-500 to-indigo-800">
 				<h5 className="text-white/80 font-medium uppercase tracking-wider">Next Project</h5>
-				<p className="text-6xl tracking-tighter font-semibold">Dulcinea</p>
+				<p className="text-6xl tracking-tighter font-semibold">CV Design</p>
 			</Link>
 
 		</main>

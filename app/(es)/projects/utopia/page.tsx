@@ -84,9 +84,9 @@ export default function Home() {
 				<p className="mt-4 text-gray-400">Se destacó también el manejo de errores y actualizaciones visuales del estado en la interfaz de usuario, tanto en formularios en proceso como en actualizaciones optimistas.</p>
 			</div>
 
-			<Link href='/projects/dulcinea' className="grid place-content-center text-center w-full h-[70vh] rounded-2xl bg-gradient-to-br from-rose-500 to-rose-800">
+			<Link href='/projects/cv-design' className="grid place-content-center text-center w-full h-[70vh] rounded-2xl bg-gradient-to-br from-purple-500 to-indigo-800">
 				<h5 className="text-white/80 font-medium uppercase tracking-wider">Siguiente proyecto</h5>
-				<p className="text-6xl tracking-tighter font-semibold">Dulcinea</p>
+				<p className="text-6xl tracking-tighter font-semibold">CV Design</p>
 			</Link>
 
 		</main>

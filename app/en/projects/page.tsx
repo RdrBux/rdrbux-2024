@@ -12,13 +12,23 @@ export default function Home() {
 			<h1 className="text-[12vw] leading-none md:text-6xl tracking-tighter font-semibold lg:text-center">Selected Projects</h1>
 			<div className="grid lg:grid-cols-2 gap-8 w-full mt-8">
 
-				<Link href="/en/projects/utopia" className="bg-white/5 border border-white/10 rounded-lg group">
+				<Link href="/en/projects/saber-supercomplejo" className="bg-white/5 border border-white/10 rounded-lg group">
 					<div className="overflow-hidden rounded-t-lg">
-						<Image src="/projects/utopia/utopia.jpg" alt="Utopia Website" width={1800} height={1172} className="w-full rounded-t-lg group-hover:scale-110 duration-500" />
+						<Image src="/projects/saber-supercomplejo/saber-supercomplejo.jpeg" alt="Saber Supercomplejo Website" width={1800} height={1172} className="w-full rounded-t-lg group-hover:scale-110 duration-500" />
 					</div>
 					<div className="p-4">
-						<h3 className="text-xl font-semibold group-hover:underline">Utopia</h3>
-						<p className="text-white/60 text-sm">The social network that enhances your well-being and quality of life</p>
+						<h3 className="text-xl font-semibold group-hover:underline">Saber Supercomplejo</h3>
+						<p className="text-white/60 text-sm">Community of Supercomplex Knowledge website</p>
+					</div>
+				</Link>
+
+				<Link href="/en/projects/ballena-blanca" className="bg-white/5 border border-white/10 rounded-lg group">
+					<div className="overflow-hidden rounded-t-lg">
+						<Image src="/projects/ballena-blanca/ballena-blanca.jpeg" alt="Ballena Blanca Website" width={1800} height={1172} className="w-full rounded-t-lg group-hover:scale-110 duration-500" />
+					</div>
+					<div className="p-4">
+						<h3 className="text-xl font-semibold group-hover:underline">Ballena Blanca</h3>
+						<p className="text-white/60 text-sm">Audio Mixing and Mastering</p>
 					</div>
 				</Link>
 
@@ -29,6 +39,16 @@ export default function Home() {
 					<div className="p-4">
 						<h3 className="text-xl font-semibold group-hover:underline">Dulcinea</h3>
 						<p className="text-white/60 text-sm">Ballet dancer and French teacher - Professional portfolio</p>
+					</div>
+				</Link>
+
+				<Link href="/en/projects/utopia" className="bg-white/5 border border-white/10 rounded-lg group">
+					<div className="overflow-hidden rounded-t-lg">
+						<Image src="/projects/utopia/utopia.jpg" alt="Utopia Website" width={1800} height={1172} className="w-full rounded-t-lg group-hover:scale-110 duration-500" />
+					</div>
+					<div className="p-4">
+						<h3 className="text-xl font-semibold group-hover:underline">Utopia</h3>
+						<p className="text-white/60 text-sm">The social network that enhances your well-being and quality of life</p>
 					</div>
 				</Link>
 
